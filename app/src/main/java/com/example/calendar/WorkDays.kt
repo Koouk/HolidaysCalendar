@@ -14,9 +14,7 @@ class WorkDays : AppCompatActivity() {
         val view = binding.root
         setContentView(view)
 
-        val extras = intent.extras ?: return
-        val message = extras.getString("Year")
-        binding.textView2.text = message
+        binding.textView2.text = "xd"
 
     }
 }

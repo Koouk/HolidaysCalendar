@@ -4,4 +4,8 @@
     <string name="podaj_rok">Podaj Rok</string>
     <string name="WorkDayButton">Dni robocze</string>
     <string name="niedziele">Niedziele</string>
+    <string name="popielec">Popielec:</string>
+    <string name="wielkanoc">Wielkanoc:</string>
+    <string name="boze_cialo">Boze Cialo:</string>
+    <string name="poczatek_adventu">Poczatek Adventu:</string>
 </resources>

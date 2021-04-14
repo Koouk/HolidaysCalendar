@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WorkDays">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/startDate"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/data_poczatkowa"
+                tools:layout_conversion_absoluteHeight="19dp"
+                tools:layout_conversion_absoluteWidth="869dp" />
+
+            <DatePicker
+                android:id="@+id/datePickerStart"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:calendarViewShown="false"
+                android:datePickerMode="spinner"
+                tools:layout_conversion_absoluteHeight="212dp"
+                tools:layout_conversion_absoluteWidth="869dp" />
+
+            <TextView
+                android:id="@+id/endDate"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/data_koncowa"
+                tools:layout_conversion_absoluteHeight="19dp"
+                tools:layout_conversion_absoluteWidth="869dp" />
+
+            <DatePicker
+                android:id="@+id/datePickerEnd"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:calendarViewShown="false"
+                android:datePickerMode="spinner"
+                tools:layout_conversion_absoluteHeight="142dp"
+                tools:layout_conversion_absoluteWidth="869dp" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            tools:layout_conversion_absoluteHeight="60dp"
+            tools:layout_conversion_absoluteWidth="869dp" />
+        <TextView
+            android:id="@+id/daysNormal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:text="@string/normal_days"
+            tools:layout_conversion_absoluteHeight="0dp"
+            tools:layout_conversion_absoluteWidth="869dp" />
+
+        <TextView
+            android:id="@+id/daysWork"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:text="@string/work_days"
+            tools:layout_conversion_absoluteHeight="0dp"
+            tools:layout_conversion_absoluteWidth="869dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.3"
+            tools:layout_conversion_absoluteHeight="60dp"
+            tools:layout_conversion_absoluteWidth="869dp" />
+
+        <Button
+            android:id="@+id/tradeBB"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:text="@string/backButton"
+            tools:layout_conversion_absoluteHeight="0dp"
+            tools:layout_conversion_absoluteWidth="869dp" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            tools:layout_conversion_absoluteHeight="60dp"
+            tools:layout_conversion_absoluteWidth="869dp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

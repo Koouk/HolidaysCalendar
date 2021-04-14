@@ -13,4 +13,9 @@
     <string name="data_koncowa">Data koncowa</string>
     <string name="normal_days">TextView</string>
     <string name="work_days">TextView</string>
+    <string name="toastMessageDate" >"Data musi byc wczesniej niz przed" </string>
+    <string name="wrongDateMessStart">Dni kalendarzowych: -</string>
+    <string name="wrongDateMessEnd">Dni roboczych: -</string>
+    <string name="DateMessStart">Dni kalendarzowych: %s</string>
+    <string name="DateMessEnd">Dni roboczych: %s</string>
 </resources>

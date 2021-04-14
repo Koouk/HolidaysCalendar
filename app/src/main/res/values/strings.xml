@@ -2,9 +2,11 @@
     <string name="app_name">Calendar</string>
     <string name="podaj_rok">Podaj Rok</string>
     <string name="WorkDayButton">Dni robocze</string>
-    <string name="niedziele">Niedziele</string>
+    <string name="niedziele">Niedziele handlowe</string>
     <string name="popielec">Popielec:</string>
     <string name="wielkanoc">Wielkanoc:</string>
     <string name="boze_cialo">Boze Cialo:</string>
     <string name="poczatek_adventu">Poczatek Adventu:</string>
+    <string name="yearSunday">Niedziele handlowe w %s:</string>
+    <string name="toastMessage">"Rok musi byc wiekszy niz 2020" </string>
 </resources>

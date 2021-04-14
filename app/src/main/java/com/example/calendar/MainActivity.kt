@@ -5,6 +5,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import com.example.calendar.databinding.ActivityMainBinding
 import android.os.Bundle
+import android.widget.Toast
 import java.time.format.DateTimeFormatter
 
 
@@ -53,10 +54,16 @@ class MainActivity : AppCompatActivity() {
 
 
     fun SundayButtonClick(){
-        val i = Intent(this, Sundays::class.java)
-        i.putExtra("Year", getYear().toString())
-        startActivity(i)
+        if (getYear() < 2020) {
+            Toast.makeText(getApplicationContext(), R.string.toastMessage,
+                    Toast.LENGTH_LONG).show();
+            return
+        }else {
 
+            val i = Intent(this, Sundays::class.java)
+            i.putExtra("Year", getYear().toString())
+            startActivity(i)
+        }
     }
 
     fun WorkdayButtonClick(){

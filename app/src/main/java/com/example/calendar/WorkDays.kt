@@ -1,5 +1,6 @@
 package com.example.calendar
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.calendar.databinding.ActivityWorkDaysBinding
@@ -27,6 +28,11 @@ class WorkDays : AppCompatActivity() {
         binding.datePickerEnd.setOnDateChangedListener{datePicker, year, month, day ->
             endDate = LocalDate.of(year,month + 1,day)
             calculateOutput()
+        }
+
+        binding.tradeBB.setOnClickListener(){
+            val i = Intent(this, MainActivity::class.java)
+            startActivity(i)
         }
         calculateOutput()
     }

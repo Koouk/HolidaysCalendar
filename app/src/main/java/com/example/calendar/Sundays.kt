@@ -1,5 +1,6 @@
 package com.example.calendar
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.ArrayAdapter
 import androidx.appcompat.app.AppCompatActivity
@@ -25,6 +26,10 @@ class Sundays : AppCompatActivity() {
         val view = binding.root
         setContentView(view)
 
+        binding.SunBackButton.setOnClickListener(){
+            val i = Intent(this, MainActivity::class.java)
+            startActivity(i)
+        }
 
         val extras = intent.extras ?: return
         val year = extras.getString("Year")?.toInt()

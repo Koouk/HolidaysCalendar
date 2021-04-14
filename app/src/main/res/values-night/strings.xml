@@ -19,4 +19,5 @@
     <string name="wrongDateMessEnd">Work days: -</string>
     <string name="DateMessStart">Calendar days: %s</string>
     <string name="DateMessEnd">Work days: %s</string>
+    <string name="backButton">Ok</string>
 </resources>

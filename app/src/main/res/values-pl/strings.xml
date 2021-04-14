@@ -19,4 +19,5 @@
     <string name="wrongDateMessEnd">Dni roboczych: -</string>
     <string name="DateMessStart">Dni kalendarzowych: %s</string>
     <string name="DateMessEnd">Dni roboczych: %s</string>
+    <string name="backButton">Ok</string>
 </resources>

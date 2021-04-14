@@ -9,4 +9,8 @@
     <string name="poczatek_adventu">Poczatek Adventu:</string>
     <string name="yearSunday">Niedziele handlowe w %s:</string>
     <string name="toastMessage">"Rok musi byc wiekszy niz 2020" </string>
+    <string name="data_poczatkowa">Data poczatkowa</string>
+    <string name="data_koncowa">Data koncowa</string>
+    <string name="normal_days">TextView</string>
+    <string name="work_days">TextView</string>
 </resources>

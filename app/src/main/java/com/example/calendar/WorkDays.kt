@@ -14,7 +14,7 @@ class WorkDays : AppCompatActivity() {
         val view = binding.root
         setContentView(view)
 
-        binding.textView2.text = "xd"
+
 
     }
 }

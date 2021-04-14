@@ -9,12 +9,12 @@
     <string name="boze_cialo">Boze Cialo:</string>
     <string name="poczatek_adventu">Poczatek Adventu:</string>
     <string name="yearSunday">Niedziele handolowe w %s:</string>
-    <string name="toastMessage">"Rok musi byc wiekszy niz 2020" </string>
+    <string name="toastMessage">"Rok musi byc wiekszy lub rowny 2020" </string>
     <string name="data_poczatkowa">Data poczatkowa</string>
     <string name="data_koncowa">Data koncowa</string>
-    <string name="normal_days">TextView</string>
-    <string name="work_days">TextView</string>
-    <string name="toastMessageDate" >"Data musi byc wczesniej niz przed" </string>
+    <string name="normal_days">Normal days</string>
+    <string name="work_days">Work days</string>
+    <string name="toastMessageDate" >"Data poczatkowa musi byc wczesniejsza niz koncowa" </string>
     <string name="wrongDateMessStart">Dni kalendarzowych: -</string>
     <string name="wrongDateMessEnd">Dni roboczych: -</string>
     <string name="DateMessStart">Dni kalendarzowych: %s</string>
